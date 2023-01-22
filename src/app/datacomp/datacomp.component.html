@@ -5,11 +5,15 @@
             <th>id</th>
             <th>val</th>
             <th>name</th>
+            <th>Image</th>
         </tr>
         <tr *ngFor="let data of d_list">
             <td>{{data.id}} </td>
             <td>{{data.val}} </td>
             <td>{{data.name}}</td>
+            <td>
+            <img [src]=data.add/>
+            </td>
             
         </tr>
     </table>

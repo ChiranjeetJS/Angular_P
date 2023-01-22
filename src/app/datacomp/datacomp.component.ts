@@ -13,16 +13,21 @@ export class DatacompComponent implements OnInit {
       "id":2,
       "val":5,
       "name":"Sample Data1",
+      "add":"iphone.jpg"
+      
     },
     {
       "id":3,
       "val":10,
       "name":"Sample Data2",
+      "add":"oppo.jpg"
     },
     {
       "id":5,
       "val":9,
       "name":"Sample Data3",
+      "add":"samsung.jpeg"
+      
     }
   ]
 
